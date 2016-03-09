@@ -39,7 +39,7 @@ apt-get -y install php5-cli php5-curl php-soap php5-gd php5-mcrypt php5-mysql ph
 
 
 RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
-
+WORKDIR /var/www/
 
 EXPOSE 80
 EXPOSE 443
